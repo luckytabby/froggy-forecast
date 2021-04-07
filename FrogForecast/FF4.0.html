@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froggy Forecast</title>
+    <link href="FF4.0.css" rel="stylesheet"></style>
+    <script src="https://kit.fontawesome.com/5cddc502c9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+
+    <h1><i class="fas fa-frog"></i> Froggy Forecast <i class="fas fa-frog"></i></h1>
+
+    <h2>What's the Weather Like in Your Pond?</h2>
+
+    </div>
+
+    <div class="search">
+
+        <form id="submitLocation">
+
+            <i class="fas fa-search-location"></i>
+
+            <input id="locationInput" type="text" placeholder="Lilypad location" autocomplete="off" autofocus="on">
+
+            <button type="submit">Submit</button>
+
+            <a id="fahrenheit">Fahrenheit</a>
+                    
+            <a id="celsius">Celsius</a>
+
+        </form>
+
+    </div>
+
+    <div class="frogAndWeather">
+
+        <div class="frog">
+
+            <img src="FroggyRain2.png" alt="Froggy holds an umbrella in the rain"  id="frog" />
+
+        </div>
+
+        <div class="main-forecast">
+
+            <h2><i class="fas fa-map-marker-alt"></i> <span id="currentLocation">Lilypond</span></h2>
+
+            <h3 id="currentDay" class="currentDay">Friday 2:23 pm</h3>
+
+            <p><i class="fas fa-cloud-sun"></i>Partly cloudy</p>
+            <p><i class="fas fa-temperature-high"></i>Feels like <span id=theTemperature>50</span>°</p>
+            <p><i class="fas fa-cloud-rain"></i>60% chance of rain</p>
+
+        </div>
+
+    </div>
+
+    <div class="weekdayContainer">
+
+        <div class="weekday">
+
+            <p>Sun</p>
+            <i class="fas fa-wind"></i>
+            <p>50°</p>
+
+        </div>
+
+        <div class="weekday">
+                    
+            <p>Mon</p>
+            <i class="fas fa-sun"></i>
+            <p>50°</p>
+
+        </div>
+
+        <div class="weekday">
+                    
+            <p>Tues</p>
+            <i class="fas fa-cloud-rain"></i>
+            <p>50°</p>
+
+        </div>
+
+        <div class="weekday">
+                    
+            <p>Weds</p>
+            <i class="fas fa-wind"></i>
+            <p>50°</p>
+
+        </div>
+
+        <div class="weekday">
+                    
+            <p>Thurs</p>
+            <i class="fas fa-cloud-rain"></i>
+            <p>50°</p>
+
+        </div>
+
+    </div>
+
+    <p class="footer"><i class="fas fa-frog"></i> Coded by Maggie McDonald <i class="fas fa-frog"></i></p>
+
+</div>
+
+<script type="text/javascript" src="FF5.0.js"></script>
+    
+</body>
+</html>

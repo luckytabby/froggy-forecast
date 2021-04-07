@@ -1,0 +1,64 @@
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.header {
+  color: green;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+button {
+  background-color: green;
+  border: solid;
+  border-color: green;
+  border-radius: 25px;
+  color: whitesmoke;
+}
+
+button:hover {
+  background-color: white;
+  border: solid;
+  border-color: green;
+  border-radius: 25px;
+  color: green;
+}
+
+.container {
+  border: solid;
+  border-color: green;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 40px;
+}
+
+#frog {
+  max-width: 300px;
+  margin: 0 30px 0 0;
+}
+
+.frogAndWeather {
+  display: flex;
+  margin: 30px 0 15px 0;
+  flex-direction: row;
+}
+
+.weekday {
+  margin: 0 30px 0 10px;
+}
+
+.weekdayContainer {
+  align-content: flex-start;
+  display: flex;
+  flex-direction: row;
+}
